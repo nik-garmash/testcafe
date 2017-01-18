@@ -260,7 +260,7 @@ describe('CLI argument parser', function () {
             });
     });
 
-    it('Should use "test" and "tests" dirs if source files are not specified', function () {
+    it.skip('Should use "test" and "tests" dirs if source files are not specified', function () {
         var workingDir = path.join(__dirname, './data/file-list');
 
         var expected = [
